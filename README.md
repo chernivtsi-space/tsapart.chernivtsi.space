@@ -21,6 +21,18 @@ T&S apart-hotel — апарт-готель у Чернівцях. Одност�
 ## Check-in / check-out
 Заїзд 14:00–00:00; Виїзд 04:00–12:00
 
+## Rooms (Booking.com room table; T&S and Панський Двір 2 from the official site)
+- Стандарт, до 2 гостей
+- Сімейний, до 4 гостей
+- Стандарт з кухнею, до 2 гостей
+- Люкс з кухнею, до 4 гостей
+
+## House rules (Booking.com)
+- Чи можна з дітьми? Так, діти будь-якого віку. За дітей від 4 років платять як за дорослих. Дитячих ліжечок і додаткових ліжок немає, тож обирайте номер на всіх гостей.
+- Чи можна з домашньою твариною? Так, може стягуватися доплата.
+- Як оплатити проживання? Готівкою. Після бронювання адміністрація зв’яжеться щодо передоплати — її потрібно внести протягом 5 днів.
+- Чи можна курити? Ні, у готелі курити заборонено.
+
 ## Reviews
 Booking.com 9.3/10 (1874), Google 4.7/5 (126). Знімок на 30.09.2026, платформи окремо, без aggregateRating.
 
@@ -32,11 +44,14 @@ Booking.com 9.3/10 (1874), Google 4.7/5 (126). Знімок на 30.09.2026, п�
 - Google Maps: https://maps.google.com/?cid=2779280570597390893
 - Address: вул. Козачука, 16, Чернівці
 
+## Sources
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+
 ## Not published
 Кількість номерів (джерела дають 24, 25 і 26), зірковість, місткість апартаментів, обладнання кухні, Instagram. Основне посилання — офіційний сайт tshotels.com.ua.
 
 ## Forms
-HotelOS (`ch-tsapart`): `stay-request` (проживання). Документ `hotels/ch-tsapart` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-tsapart`): `stay-request` (проживання), `conference-request` (Запит на конференц-зал). Документ `hotels/ch-tsapart` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## Photos
 Лише фото міста (не готелю), з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці:
