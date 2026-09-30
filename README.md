@@ -36,7 +36,7 @@ Booking.com 9.3/10 (1874), Google 4.7/5 (126). Знімок на 30.09.2026, п�
 Кількість номерів (джерела дають 24, 25 і 26), зірковість, місткість апартаментів, обладнання кухні, Instagram. Основне посилання — офіційний сайт tshotels.com.ua.
 
 ## Forms
-HotelOS (`kp-tsapart`): `stay-request` (проживання). Документ `hotels/kp-tsapart` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-tsapart`): `stay-request` (проживання). Документ `hotels/ch-tsapart` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
