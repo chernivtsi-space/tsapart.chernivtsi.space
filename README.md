@@ -3,7 +3,7 @@
 Live site: https://tsapart.chernivtsi.space
 
 ## About
-T&S apart-hotel — апарт-готель у Чернівцях. Односторінковий лендинг без фото (`photos_source: null`): типографіка та CSS/SVG-графіка.
+T&S apart-hotel — апарт-готель у Чернівцях. Односторінковий лендинг. Фото закладу немає (`photos_source: null`), тому hero типографічний (CSS/SVG), а єдині фото — міста Чернівців з Pexels (див. Photos).
 
 ## Hero concept
 Стіна з керамічної плитки: великий курсивний «&» на кобальтовій плитці між «T» і «S» — кухонна плитка як знак апартаментів із кухнею. Поруч — плашка Booking 9.3.
@@ -37,6 +37,13 @@ Booking.com 9.3/10 (1874), Google 4.7/5 (126). Знімок на 30.09.2026, п�
 
 ## Forms
 HotelOS (`ch-tsapart`): `stay-request` (проживання). Документ `hotels/ch-tsapart` у Firestore треба створити вручну, інакше правила відхилять заявки.
+
+## Photos
+Лише фото міста (не готелю), з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці:
+
+- Арочні вікна старої будівлі: pexels.com/photo/38163648 (Natalia Sevruk)
+- Резиденція буковинських митрополитів, нині Чернівецький університет: pexels.com/photo/39176014 (Tetiana Boriskova)
+- Чернівецький дворик: pexels.com/photo/17265321 (Андрій Копічевський)
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
